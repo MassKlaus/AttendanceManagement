@@ -36,9 +36,8 @@ public class mainMenu {
 
         scanner.close();
     }
-}
 
-public void login(){
+    public void login(){
     String pw = "test";
     boolean isLoggedin;
     int usrLoggedon = 0;
@@ -59,7 +58,7 @@ public void logout(){
     usr = usnm;
     System.out.println( usnm + " has logged out. Goodbye, " + usnm);
 }
-
-public void main() {
-
 }
+
+
+
